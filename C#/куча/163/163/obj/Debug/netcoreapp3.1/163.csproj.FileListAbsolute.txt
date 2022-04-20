@@ -1,0 +1,13 @@
+C:\Users\Андрей\source\repos\163\163\bin\Debug\netcoreapp3.1\163.exe
+C:\Users\Андрей\source\repos\163\163\bin\Debug\netcoreapp3.1\163.deps.json
+C:\Users\Андрей\source\repos\163\163\bin\Debug\netcoreapp3.1\163.runtimeconfig.json
+C:\Users\Андрей\source\repos\163\163\bin\Debug\netcoreapp3.1\163.runtimeconfig.dev.json
+C:\Users\Андрей\source\repos\163\163\bin\Debug\netcoreapp3.1\163.dll
+C:\Users\Андрей\source\repos\163\163\bin\Debug\netcoreapp3.1\163.pdb
+C:\Users\Андрей\source\repos\163\163\obj\Debug\netcoreapp3.1\163.csprojAssemblyReference.cache
+C:\Users\Андрей\source\repos\163\163\obj\Debug\netcoreapp3.1\163.AssemblyInfoInputs.cache
+C:\Users\Андрей\source\repos\163\163\obj\Debug\netcoreapp3.1\163.AssemblyInfo.cs
+C:\Users\Андрей\source\repos\163\163\obj\Debug\netcoreapp3.1\163.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\source\repos\163\163\obj\Debug\netcoreapp3.1\163.dll
+C:\Users\Андрей\source\repos\163\163\obj\Debug\netcoreapp3.1\163.pdb
+C:\Users\Андрей\source\repos\163\163\obj\Debug\netcoreapp3.1\163.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "R+3PZ4vwMfEnsabJ8GEcUF9jiYjCNu1Wc0vZ6wZqNRPCZet7jKZLZt82yDSyGu/Tade/dhWnYpAH3r4S9LyhdQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Андрей\\Downloads\\repos_2\\repos\\142\\142\\142.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Андрей\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\Андрей\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\Андрей\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\Андрей\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\Андрей\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Андрей\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
