@@ -1,0 +1,910 @@
+menu.html – приветствующая страница сайта;
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" / >
+	<title>Магазин сантехники</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body class=gradient>
+<center>
+<svg height=202px>
+	<!//<polygon points="40,95 140,0 230,95" fill=blue/>
+	<!<path d="M 230 95 A 1 1 0 0 1 40 95" fill="blue	" />
+	<path d="M57.034,166.534c2.398,3.801,3.664,8.181,3.664,12.685c0,13.128-10.681,23.809-23.809,23.809S13.08,192.347,13.08,179.219
+	c0-4.522,1.276-8.919,3.692-12.731l13.664-23.069c1.351-2.28,3.803-3.678,6.453-3.678c2.649,0,5.103,1.398,6.453,3.678
+	L57.034,166.534z M190.514,43.376h-49.038v-1.025c0-4.142-3.357-7.5-7.5-7.5h-11.233v-6.495h30.661c4.143,0,7.5-3.358,7.5-7.5
+	v-4.251C160.903,7.449,153.454,0,144.298,0H76.017c-9.156,0-16.605,7.449-16.605,16.605v4.251c0,4.142,3.358,7.5,7.5,7.5h30.662
+	v6.495H86.339c-4.142,0-7.5,3.358-7.5,7.5v1.025H58.84c-27.156,0-49.249,22.093-49.249,49.25v25.194
+	c-2.69,1.139-4.578,3.804-4.578,6.909c0,4.142,3.358,7.5,7.5,7.5h4.578h35.714h4.103c4.142,0,7.5-3.358,7.5-7.5
+	c0-2.918-1.67-5.441-4.103-6.681v-16.932c0-4.429,3.603-8.032,8.032-8.032h10.502v2.547c0,4.142,3.358,7.5,7.5,7.5h47.636
+	c4.143,0,7.5-3.358,7.5-7.5v-0.329h49.038c4.143,0,7.5-3.358,7.5-7.5V50.876C198.014,46.734,194.656,43.376,190.514,43.376z"/>
+</svg>
+<h1 class=title2>Сантехника</h1>
+
+</center>
+<div class="buttonmenu" >
+	<center>
+<button><a href="http://localhost/truba.html">Труба</a></button>
+<button><a href="http://localhost/unitaz.html">Унитазы</a></button>
+<button><a href="http://localhost/vanna.html">Ванны</a></button>
+<button><a href="http://localhost/registra.html">Заказ</a></button>
+<button><a href="http://localhost/status.html">Статус</a></button>
+<button><a href="http://localhost/T4.html">Регистрация</a></button>
+<button><a href="http://localhost/authform.html">Авторизация</a></button>
+<button><a href="http://localhost/cabinet.php">Кабинет</a></button>
+</center>
+</div>
+<div class="hello_menu">
+	<center>
+		<h1>Приветсвую вас на нашем сайте сантехники</h1>
+		<p>Здесь вы можете найти и заказать нужные вам товары</p>
+	</center>
+</div>
+</body>
+</html>
+truba.html –  каталог труб;
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" / >
+	<title>Магазин сантехники</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body class=gradient>
+<center>
+<svg height=202px>
+	<!//<polygon points="40,95 140,0 230,95" fill=blue/>
+	<!<path d="M 230 95 A 1 1 0 0 1 40 95" fill="blue	" />
+	<path d="M57.034,166.534c2.398,3.801,3.664,8.181,3.664,12.685c0,13.128-10.681,23.809-23.809,23.809S13.08,192.347,13.08,179.219
+	c0-4.522,1.276-8.919,3.692-12.731l13.664-23.069c1.351-2.28,3.803-3.678,6.453-3.678c2.649,0,5.103,1.398,6.453,3.678
+	L57.034,166.534z M190.514,43.376h-49.038v-1.025c0-4.142-3.357-7.5-7.5-7.5h-11.233v-6.495h30.661c4.143,0,7.5-3.358,7.5-7.5
+	v-4.251C160.903,7.449,153.454,0,144.298,0H76.017c-9.156,0-16.605,7.449-16.605,16.605v4.251c0,4.142,3.358,7.5,7.5,7.5h30.662
+	v6.495H86.339c-4.142,0-7.5,3.358-7.5,7.5v1.025H58.84c-27.156,0-49.249,22.093-49.249,49.25v25.194
+	c-2.69,1.139-4.578,3.804-4.578,6.909c0,4.142,3.358,7.5,7.5,7.5h4.578h35.714h4.103c4.142,0,7.5-3.358,7.5-7.5
+	c0-2.918-1.67-5.441-4.103-6.681v-16.932c0-4.429,3.603-8.032,8.032-8.032h10.502v2.547c0,4.142,3.358,7.5,7.5,7.5h47.636
+	c4.143,0,7.5-3.358,7.5-7.5v-0.329h49.038c4.143,0,7.5-3.358,7.5-7.5V50.876C198.014,46.734,194.656,43.376,190.514,43.376z"/>
+</svg>
+<h1 class=title2>Сантехника</h1>
+
+</center>
+<div class="buttonmenu" >
+	<center>
+
+<button><a href="http://localhost/unitaz.html">Унитазы</a></button>
+<button><a href="http://localhost/vanna.html">Ванны</a></button>
+<button><a href="http://localhost/registra.html">Заказ</a></button>
+<button><a href="http://localhost/status.html">Статус</a></button>
+<button><a href="http://localhost/T4.html">Регистрация</a></button>
+<button><a href="http://localhost/authform.html">Авторизация</a></button>
+<button><a href="http://localhost/cabinet.php">Кабинет</a></button>
+</center>
+</div>
+</body>
+</html>
+vanna.php – каталог ванн;
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" / >
+	<title>Магазин сантехники</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body class=gradient>
+<center>
+<svg height=202px>
+	<!//<polygon points="40,95 140,0 230,95" fill=blue/>
+	<!<path d="M 230 95 A 1 1 0 0 1 40 95" fill="blue	" />
+	<path d="M57.034,166.534c2.398,3.801,3.664,8.181,3.664,12.685c0,13.128-10.681,23.809-23.809,23.809S13.08,192.347,13.08,179.219
+	c0-4.522,1.276-8.919,3.692-12.731l13.664-23.069c1.351-2.28,3.803-3.678,6.453-3.678c2.649,0,5.103,1.398,6.453,3.678
+	L57.034,166.534z M190.514,43.376h-49.038v-1.025c0-4.142-3.357-7.5-7.5-7.5h-11.233v-6.495h30.661c4.143,0,7.5-3.358,7.5-7.5
+	v-4.251C160.903,7.449,153.454,0,144.298,0H76.017c-9.156,0-16.605,7.449-16.605,16.605v4.251c0,4.142,3.358,7.5,7.5,7.5h30.662
+	v6.495H86.339c-4.142,0-7.5,3.358-7.5,7.5v1.025H58.84c-27.156,0-49.249,22.093-49.249,49.25v25.194
+	c-2.69,1.139-4.578,3.804-4.578,6.909c0,4.142,3.358,7.5,7.5,7.5h4.578h35.714h4.103c4.142,0,7.5-3.358,7.5-7.5
+	c0-2.918-1.67-5.441-4.103-6.681v-16.932c0-4.429,3.603-8.032,8.032-8.032h10.502v2.547c0,4.142,3.358,7.5,7.5,7.5h47.636
+	c4.143,0,7.5-3.358,7.5-7.5v-0.329h49.038c4.143,0,7.5-3.358,7.5-7.5V50.876C198.014,46.734,194.656,43.376,190.514,43.376z"/>
+</svg>
+<h1 class=title2>Сантехника</h1>
+
+</center>
+<div class="buttonmenu" >
+	<center>
+<button><a href="http://localhost/truba.html">Труба</a></button>
+<button><a href="http://localhost/unitaz.html">Унитазы</a></button>
+
+<button><a href="http://localhost/registra.html">Заказ</a></button>
+<button><a href="http://localhost/status.html">Статус</a></button>
+<button><a href="http://localhost/T4.html">Регистрация</a></button>
+<button><a href="http://localhost/authform.html">Авторизация</a></button>
+<button><a href="http://localhost/cabinet.php">Кабинет</a></button>
+</center>
+</div>
+</body>
+</html>
+unitaz.html – каталог унитазов;
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" / >
+	<title>Магазин сантехники</title>
+	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesTable.css">
+</head>
+<body class=gradient>
+<center>
+<svg height=202px>
+	<!//<polygon points="40,95 140,0 230,95" fill=blue/>
+	<!<path d="M 230 95 A 1 1 0 0 1 40 95" fill="blue	" />
+	<path d="M57.034,166.534c2.398,3.801,3.664,8.181,3.664,12.685c0,13.128-10.681,23.809-23.809,23.809S13.08,192.347,13.08,179.219
+	c0-4.522,1.276-8.919,3.692-12.731l13.664-23.069c1.351-2.28,3.803-3.678,6.453-3.678c2.649,0,5.103,1.398,6.453,3.678
+	L57.034,166.534z M190.514,43.376h-49.038v-1.025c0-4.142-3.357-7.5-7.5-7.5h-11.233v-6.495h30.661c4.143,0,7.5-3.358,7.5-7.5
+	v-4.251C160.903,7.449,153.454,0,144.298,0H76.017c-9.156,0-16.605,7.449-16.605,16.605v4.251c0,4.142,3.358,7.5,7.5,7.5h30.662
+	v6.495H86.339c-4.142,0-7.5,3.358-7.5,7.5v1.025H58.84c-27.156,0-49.249,22.093-49.249,49.25v25.194
+	c-2.69,1.139-4.578,3.804-4.578,6.909c0,4.142,3.358,7.5,7.5,7.5h4.578h35.714h4.103c4.142,0,7.5-3.358,7.5-7.5
+	c0-2.918-1.67-5.441-4.103-6.681v-16.932c0-4.429,3.603-8.032,8.032-8.032h10.502v2.547c0,4.142,3.358,7.5,7.5,7.5h47.636
+	c4.143,0,7.5-3.358,7.5-7.5v-0.329h49.038c4.143,0,7.5-3.358,7.5-7.5V50.876C198.014,46.734,194.656,43.376,190.514,43.376z"/>
+</svg>
+<h1 class=title2>Сантехника</h1>
+
+</center>
+<div class="buttonmenu" >
+	<center>
+<button><a href="http://localhost/truba.html">Труба</a></button>
+
+<button><a href="http://localhost/vanna.html">Ванны</a></button>
+<button><a href="http://localhost/registra.html">Заказ</a></button>
+<button><a href="http://localhost/status.html">Статус</a></button>
+<button><a href="http://localhost/T4.html">Регистрация</a></button>
+<button><a href="http://localhost/authform.html">Авторизация</a></button>
+<button><a href="http://localhost/cabinet.php">Кабинет</a></button>
+</center>
+</div>
+<div class="container">
+            <div>
+                <center>
+ <h1 class="cont_text">Наши Унитазы</h1>
+                <table>
+                    <tr>
+                        <td><img src="assets/unitaz12.png"></td>
+                        <td class="OpiText">Унитаз компакт Duravit ME by Starck 2170090000 без бачка и крышки-сиденья</td>
+                    </tr>
+                    <tr>
+                        <td><img src="assets/unitaz2.png"></td>
+                        <td class="OpiText">Унитаз-компакт NORM Eisberg 9844B099-7202</td>
+                    </tr>
+                    <tr>
+                        <td><img src="assets/unitaz3.png"></td>
+                        <td class="OpiText">Унитаз-компакт Оскольская Керамика Суперкомпакт Стандарт</td>
+                    </tr>
+                </table>
+                </center>
+            </div>
+        </div>
+</body>
+</html>
+registra.html – регистрация заказа;
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" / >
+	<title>Магазин сантехники</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body class=gradient>
+<center>
+<svg height=202px>
+	<!//<polygon points="40,95 140,0 230,95" fill=blue/>
+	<!<path d="M 230 95 A 1 1 0 0 1 40 95" fill="blue	" />
+	<path d="M57.034,166.534c2.398,3.801,3.664,8.181,3.664,12.685c0,13.128-10.681,23.809-23.809,23.809S13.08,192.347,13.08,179.219
+	c0-4.522,1.276-8.919,3.692-12.731l13.664-23.069c1.351-2.28,3.803-3.678,6.453-3.678c2.649,0,5.103,1.398,6.453,3.678
+	L57.034,166.534z M190.514,43.376h-49.038v-1.025c0-4.142-3.357-7.5-7.5-7.5h-11.233v-6.495h30.661c4.143,0,7.5-3.358,7.5-7.5
+	v-4.251C160.903,7.449,153.454,0,144.298,0H76.017c-9.156,0-16.605,7.449-16.605,16.605v4.251c0,4.142,3.358,7.5,7.5,7.5h30.662
+	v6.495H86.339c-4.142,0-7.5,3.358-7.5,7.5v1.025H58.84c-27.156,0-49.249,22.093-49.249,49.25v25.194
+	c-2.69,1.139-4.578,3.804-4.578,6.909c0,4.142,3.358,7.5,7.5,7.5h4.578h35.714h4.103c4.142,0,7.5-3.358,7.5-7.5
+	c0-2.918-1.67-5.441-4.103-6.681v-16.932c0-4.429,3.603-8.032,8.032-8.032h10.502v2.547c0,4.142,3.358,7.5,7.5,7.5h47.636
+	c4.143,0,7.5-3.358,7.5-7.5v-0.329h49.038c4.143,0,7.5-3.358,7.5-7.5V50.876C198.014,46.734,194.656,43.376,190.514,43.376z"/>
+</svg>
+<h1 class=title2>Сантехника</h1>
+
+</center>
+<div class="buttonmenu" >
+	<center>
+<button><a href="http://localhost/truba.html">Труба</a></button>
+<button><a href="http://localhost/unitaz.html">Унитазы</a></button>
+<button><a href="http://localhost/vanna.html">Ванны</a></button>
+
+<button><a href="http://localhost/status.html">Статус</a></button>
+<button><a href="http://localhost/T4.html">Регистрация</a></button>
+<button><a href="http://localhost/authform.html">Авторизация</a></button>
+<button><a href="http://localhost/cabinet.php">Кабинет</a></button>
+</center>
+</div>
+<center>
+<h2>Заказ</h2>
+<div>
+	<p>Текст про то как надо заказывать.</p>
+</div>
+<form name="fm_anketa" method="post" action="phpNewZakazCode.php">
+<h3 align="center">Заказ</h3>
+<table align="center">
+<tr >
+<td>Name</td>
+
+<td><input type="text" size="30" name="txtName" id="txtName" /></td>
+</tr>
+<tr>
+<td>Телефон</td>
+<td><input type="text" size="20" name="Phone" id="Phone"  /></td>
+</tr>
+<tr>
+
+</td>
+</tr>
+
+<tr>
+<td>Информация о заказе</td>
+<td>
+<textarea name="TextZakaz" rows="4" cols="30" id="TextZakaz"> </textarea>
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<input type="submit" name="Submit" id="Submit" value="Отправить" onClick="alert('ваши данные будут переданы)"/>
+<input type="submit" value="Очистить" onClick="alert('ваши данные будут удалены)"/>
+</td>
+</tr>
+</table>
+</form>
+</center>
+
+</body>
+</html>
+status.html – состояние заказа;
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" / >
+	<title>Магазин сантехники</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body class=gradient>
+<center>
+<svg height=202px>
+	<!//<polygon points="40,95 140,0 230,95" fill=blue/>
+	<!<path d="M 230 95 A 1 1 0 0 1 40 95" fill="blue	" />
+	<path d="M57.034,166.534c2.398,3.801,3.664,8.181,3.664,12.685c0,13.128-10.681,23.809-23.809,23.809S13.08,192.347,13.08,179.219
+	c0-4.522,1.276-8.919,3.692-12.731l13.664-23.069c1.351-2.28,3.803-3.678,6.453-3.678c2.649,0,5.103,1.398,6.453,3.678
+	L57.034,166.534z M190.514,43.376h-49.038v-1.025c0-4.142-3.357-7.5-7.5-7.5h-11.233v-6.495h30.661c4.143,0,7.5-3.358,7.5-7.5
+	v-4.251C160.903,7.449,153.454,0,144.298,0H76.017c-9.156,0-16.605,7.449-16.605,16.605v4.251c0,4.142,3.358,7.5,7.5,7.5h30.662
+	v6.495H86.339c-4.142,0-7.5,3.358-7.5,7.5v1.025H58.84c-27.156,0-49.249,22.093-49.249,49.25v25.194
+	c-2.69,1.139-4.578,3.804-4.578,6.909c0,4.142,3.358,7.5,7.5,7.5h4.578h35.714h4.103c4.142,0,7.5-3.358,7.5-7.5
+	c0-2.918-1.67-5.441-4.103-6.681v-16.932c0-4.429,3.603-8.032,8.032-8.032h10.502v2.547c0,4.142,3.358,7.5,7.5,7.5h47.636
+	c4.143,0,7.5-3.358,7.5-7.5v-0.329h49.038c4.143,0,7.5-3.358,7.5-7.5V50.876C198.014,46.734,194.656,43.376,190.514,43.376z"/>
+</svg>
+<h1 class=title2>Сантехника</h1>
+</center>
+<div class="buttonmenu" >
+	<center>
+<button><a href="http://localhost/truba.html">Труба</a></button>
+<button><a href="http://localhost/unitaz.html">Унитазы</a></button>
+<button><a href="http://localhost/vanna.html">Ванны</a></button>
+<button><a href="http://localhost/registra.html">Заказ</a></button>
+
+<button><a href="http://localhost/T4.html">Регистрация</a></button>
+<button><a href="http://localhost/authform.html">Авторизация</a></button>
+<button><a href="http://localhost/cabinet.php">Кабинет</a></button>
+</center>
+</div>
+<center>
+<h2>Отслеживание</h2>
+<div>
+	<p>Текст про то как надо отслеживать.</p>
+<form action="find.php" method="post">
+<input type="text" name="Name" placeholder="Name" size="30" id="Name"><b/>
+<b/>
+<input type="text" name="Phone" placeholder="Phone" size="30" id="Phone"><b/>
+<br>
+<input type="submit" name="Find" id="Find" value="Поиск"/>
+</div>
+</body>
+</html>
+authform.html – страница авторизации пользователя;
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" / >
+    <title>Магазин сантехники</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class=gradient>
+<center>
+<svg height=202px>
+    <!//<polygon points="40,95 140,0 230,95" fill=blue/>
+    <!<path d="M 230 95 A 1 1 0 0 1 40 95" fill="blue   " />
+    <path d="M57.034,166.534c2.398,3.801,3.664,8.181,3.664,12.685c0,13.128-10.681,23.809-23.809,23.809S13.08,192.347,13.08,179.219
+    c0-4.522,1.276-8.919,3.692-12.731l13.664-23.069c1.351-2.28,3.803-3.678,6.453-3.678c2.649,0,5.103,1.398,6.453,3.678
+    L57.034,166.534z M190.514,43.376h-49.038v-1.025c0-4.142-3.357-7.5-7.5-7.5h-11.233v-6.495h30.661c4.143,0,7.5-3.358,7.5-7.5
+    v-4.251C160.903,7.449,153.454,0,144.298,0H76.017c-9.156,0-16.605,7.449-16.605,16.605v4.251c0,4.142,3.358,7.5,7.5,7.5h30.662
+    v6.495H86.339c-4.142,0-7.5,3.358-7.5,7.5v1.025H58.84c-27.156,0-49.249,22.093-49.249,49.25v25.194
+    c-2.69,1.139-4.578,3.804-4.578,6.909c0,4.142,3.358,7.5,7.5,7.5h4.578h35.714h4.103c4.142,0,7.5-3.358,7.5-7.5
+    c0-2.918-1.67-5.441-4.103-6.681v-16.932c0-4.429,3.603-8.032,8.032-8.032h10.502v2.547c0,4.142,3.358,7.5,7.5,7.5h47.636
+    c4.143,0,7.5-3.358,7.5-7.5v-0.329h49.038c4.143,0,7.5-3.358,7.5-7.5V50.876C198.014,46.734,194.656,43.376,190.514,43.376z"/>
+</svg>
+<h1 class=title2>Сантехника</h1>
+
+</center>
+<div class="buttonmenu" >
+    <center>
+<button><a href="http://localhost/truba.html">Труба</a></button>
+<button><a href="http://localhost/unitaz.html">Унитазы</a></button>
+<button><a href="http://localhost/vanna.html">Ванны</a></button>
+<button><a href="http://localhost/registra.html">Заказ</a></button>
+<button><a href="http://localhost/status.html">Статус</a></button>
+<button><a href="http://localhost/T4.html">Регистрация</a></button>
+
+<button><a href="http://localhost/cabinet.php">Кабинет</a></button>
+</center>
+</div>
+        
+        <div>
+            <center>
+            <form action="cabinet.php" method="post">
+                <h2 class="auth_logo">Авторизация</h2>
+                <label class="form-label">Логин</label>
+                <input name="username" type="login" class="form-control">
+                <br>
+                <label class="form-label">Пароль</label>
+                <input name="pasword" type="pasword" class="form-control">
+                <div class="auth_buttons">
+                    <button class="btn_primary" type="submit">Авторизация</button>
+                    <button class="btn_secondary"><a class="auth_btn" href="regform.html">Регистрация</a></button>
+                </div>
+            </form>
+            </center>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </body>
+</html>
+
+T4.html – страница регистрации пользователя;
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" / >
+    <title>Магазин сантехники</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class=gradient>
+<center>
+<svg height=202px>
+    <!//<polygon points="40,95 140,0 230,95" fill=blue/>
+    <!<path d="M 230 95 A 1 1 0 0 1 40 95" fill="blue   " />
+    <path d="M57.034,166.534c2.398,3.801,3.664,8.181,3.664,12.685c0,13.128-10.681,23.809-23.809,23.809S13.08,192.347,13.08,179.219
+    c0-4.522,1.276-8.919,3.692-12.731l13.664-23.069c1.351-2.28,3.803-3.678,6.453-3.678c2.649,0,5.103,1.398,6.453,3.678
+    L57.034,166.534z M190.514,43.376h-49.038v-1.025c0-4.142-3.357-7.5-7.5-7.5h-11.233v-6.495h30.661c4.143,0,7.5-3.358,7.5-7.5
+    v-4.251C160.903,7.449,153.454,0,144.298,0H76.017c-9.156,0-16.605,7.449-16.605,16.605v4.251c0,4.142,3.358,7.5,7.5,7.5h30.662
+    v6.495H86.339c-4.142,0-7.5,3.358-7.5,7.5v1.025H58.84c-27.156,0-49.249,22.093-49.249,49.25v25.194
+    c-2.69,1.139-4.578,3.804-4.578,6.909c0,4.142,3.358,7.5,7.5,7.5h4.578h35.714h4.103c4.142,0,7.5-3.358,7.5-7.5
+    c0-2.918-1.67-5.441-4.103-6.681v-16.932c0-4.429,3.603-8.032,8.032-8.032h10.502v2.547c0,4.142,3.358,7.5,7.5,7.5h47.636
+    c4.143,0,7.5-3.358,7.5-7.5v-0.329h49.038c4.143,0,7.5-3.358,7.5-7.5V50.876C198.014,46.734,194.656,43.376,190.514,43.376z"/>
+</svg>
+<h1 class=title2>Сантехника</h1>
+
+</center>
+<div class="buttonmenu" >
+    <center>
+<button><a href="http://localhost/truba.html">Труба</a></button>
+<button><a href="http://localhost/unitaz.html">Унитазы</a></button>
+<button><a href="http://localhost/vanna.html">Ванны</a></button>
+<button><a href="http://localhost/registra.html">Заказ</a></button>
+<button><a href="http://localhost/status.html">Статус</a></button>
+
+<button><a href="http://localhost/authform.html">Авторизация</a></button>
+<button><a href="http://localhost/cabinet.php">Кабинет</a></button>
+</center>
+</div>
+<center>
+ <form action="T4_2.php" method="post">
+                <h2 class="auth_logo">Регистрация</h2>
+                <label class="form-label">Логин</label>
+                <input name="username"  type="text" class="form-control">
+                <br>
+                <label class="form-label">Пароль</label>
+                <input name="password"  type="text" class="form-control">
+                <br>
+                <label class="form-label">Повтор пароля</label>
+                <input name="powpassword" type="text" class="form-control">
+                <div class="auth_buttons">
+                    <button class="btn_primary" type="submit">Регистрация</button>
+                    <button class="btn_secondary"><a class="auth_btn" href="authform.html">Авторизация</a></button>
+                </div>
+            </form>
+            </center>
+            
+</body>
+</html>
+apanel.php – панель администратора;
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" / >
+    <title>Магазин сантехники</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class=gradient>
+<center>
+<svg height=202px>
+    <!//<polygon points="40,95 140,0 230,95" fill=blue/>
+    <!<path d="M 230 95 A 1 1 0 0 1 40 95" fill="blue   " />
+    <path d="M57.034,166.534c2.398,3.801,3.664,8.181,3.664,12.685c0,13.128-10.681,23.809-23.809,23.809S13.08,192.347,13.08,179.219
+    c0-4.522,1.276-8.919,3.692-12.731l13.664-23.069c1.351-2.28,3.803-3.678,6.453-3.678c2.649,0,5.103,1.398,6.453,3.678
+    L57.034,166.534z M190.514,43.376h-49.038v-1.025c0-4.142-3.357-7.5-7.5-7.5h-11.233v-6.495h30.661c4.143,0,7.5-3.358,7.5-7.5
+    v-4.251C160.903,7.449,153.454,0,144.298,0H76.017c-9.156,0-16.605,7.449-16.605,16.605v4.251c0,4.142,3.358,7.5,7.5,7.5h30.662
+    v6.495H86.339c-4.142,0-7.5,3.358-7.5,7.5v1.025H58.84c-27.156,0-49.249,22.093-49.249,49.25v25.194
+    c-2.69,1.139-4.578,3.804-4.578,6.909c0,4.142,3.358,7.5,7.5,7.5h4.578h35.714h4.103c4.142,0,7.5-3.358,7.5-7.5
+    c0-2.918-1.67-5.441-4.103-6.681v-16.932c0-4.429,3.603-8.032,8.032-8.032h10.502v2.547c0,4.142,3.358,7.5,7.5,7.5h47.636
+    c4.143,0,7.5-3.358,7.5-7.5v-0.329h49.038c4.143,0,7.5-3.358,7.5-7.5V50.876C198.014,46.734,194.656,43.376,190.514,43.376z"/>
+</svg>
+<h1 class=title2>Сантехника</h1>
+
+</center>
+<div class="buttonmenu" >
+    <center>
+<button><a href="http://localhost/truba.html">Труба</a></button>
+<button><a href="http://localhost/unitaz.html">Унитазы</a></button>
+<button><a href="http://localhost/vanna.html">Ванны</a></button>
+<button><a href="http://localhost/registra.html">Заказ</a></button>
+<button><a href="http://localhost/status.html">Статус</a></button>
+<button><a href="http://localhost/T4.html">Регистрация</a></button>
+<button><a href="http://localhost/authform.html">Авторизация</a></button>
+<button><a href="http://localhost/cabinet.php">Кабинет</a></button>
+</center>
+</div>
+<?php
+$connection = mysqli_connect('localhost', 'ad', '1','zakaz');
+$select_db = mysqli_select_db($connection, 'users');
+$username = $_SESSION['username'];
+$query = "SELECT isAdmin FROM users WHERE username='$username'";
+$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
+$row = mysqli_fetch_assoc($result);
+$isAdmin = $row['isAdmin'];
+if ($isAdmin == 1) {
+    echo '<div class="container">';
+    echo '<h3>Заблокировать аккаунт: </h3>';
+    echo '<form action="banuser.php" method="post">';
+    echo '<p>Введите имя пользователя: </p>';
+    echo '<input name="banuser" type="text" class="form-control">';
+    echo '<div align="right">';
+    echo '<button class="btn_primary">Заблокировать</button>';
+    echo '</div>';
+    echo '</form>';
+    echo '<h3>Отправить сообщение:</h3>';
+    echo '<form action="sendMessage.php" method="post">';
+    echo '<p>Введите имя пользователя:</p>';
+    echo '<input name="sendName" type="text" class="form-control">';
+    echo '<p>Введите тему сообщения:</p>';
+    echo '<input name="sendTheme" type="text" class="form-control">';
+    echo '<p>Введите сообщение:</p>';
+    echo '<input name="sendText" type="text" class="form-control">';
+    echo '<div align="right">';
+    echo '<button class="btn_primary">Отправить</button>';
+    echo '</div>';
+    echo '</form>';
+    echo '</div>';
+    
+    echo '';
+}
+else {
+    echo '<h2><font color="red">У Вас нет прав!</font></h2>';
+}
+?>    
+    </body>
+</html>
+cabinet.php – страница личного кабинета;
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" / >
+    <title>Магазин сантехники</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class=gradient>
+<center>
+<svg height=202px>
+    <!//<polygon points="40,95 140,0 230,95" fill=blue/>
+    <!<path d="M 230 95 A 1 1 0 0 1 40 95" fill="blue   " />
+    <path d="M57.034,166.534c2.398,3.801,3.664,8.181,3.664,12.685c0,13.128-10.681,23.809-23.809,23.809S13.08,192.347,13.08,179.219
+    c0-4.522,1.276-8.919,3.692-12.731l13.664-23.069c1.351-2.28,3.803-3.678,6.453-3.678c2.649,0,5.103,1.398,6.453,3.678
+    L57.034,166.534z M190.514,43.376h-49.038v-1.025c0-4.142-3.357-7.5-7.5-7.5h-11.233v-6.495h30.661c4.143,0,7.5-3.358,7.5-7.5
+    v-4.251C160.903,7.449,153.454,0,144.298,0H76.017c-9.156,0-16.605,7.449-16.605,16.605v4.251c0,4.142,3.358,7.5,7.5,7.5h30.662
+    v6.495H86.339c-4.142,0-7.5,3.358-7.5,7.5v1.025H58.84c-27.156,0-49.249,22.093-49.249,49.25v25.194
+    c-2.69,1.139-4.578,3.804-4.578,6.909c0,4.142,3.358,7.5,7.5,7.5h4.578h35.714h4.103c4.142,0,7.5-3.358,7.5-7.5
+    c0-2.918-1.67-5.441-4.103-6.681v-16.932c0-4.429,3.603-8.032,8.032-8.032h10.502v2.547c0,4.142,3.358,7.5,7.5,7.5h47.636
+    c4.143,0,7.5-3.358,7.5-7.5v-0.329h49.038c4.143,0,7.5-3.358,7.5-7.5V50.876C198.014,46.734,194.656,43.376,190.514,43.376z"/>
+</svg>
+<h1 class=title2>Сантехника</h1>
+
+</center>
+<div class="buttonmenu" >
+    <center>
+<button><a href="http://localhost/truba.html">Труба</a></button>
+<button><a href="http://localhost/unitaz.html">Унитазы</a></button>
+<button><a href="http://localhost/vanna.html">Ванны</a></button>
+<button><a href="http://localhost/registra.html">Заказ</a></button>
+<button><a href="http://localhost/status.html">Статус</a></button>
+<button><a href="http://localhost/T4.html">Регистрация</a></button>
+<button><a href="http://localhost/authform.html">Авторизация</a></button>
+s
+</center>
+</div>
+<?php 
+$connection = mysqli_connect('localhost', 'ad', '1','zakaz');
+$select_db = mysqli_select_db($connection, 'users');
+if (isset($_POST['username']) && isset($_POST['pasword'])) {
+    $username = $_POST['username'];
+    $pasword = $_POST['pasword'];
+    $query = "SELECT * FROM users WHERE username='$username' and pasword='$pasword'";
+    $result = mysqli_query($connection, $query) or die(mysqli_error($connection));
+    $count = mysqli_num_rows($result);
+    if($count == 1) {
+        $_SESSION['username'] = $username;
+        $row = mysqli_fetch_assoc($result);
+        $isAdmin = $row['isAdmin'];
+    }
+    else {
+        echo '<script language="javascript">';
+        echo 'alert("Ошибка!")';
+        echo '</script>';
+    }
+}
+if (isset($_SESSION['username'])) {
+    $username = $_SESSION['username'];
+    $query = "SELECT isAdmin FROM users WHERE username='$username'";
+    $result = mysqli_query($connection, $query) or die(mysqli_error($connection));
+    $row = mysqli_fetch_assoc($result);
+    $isAdmin = $row['isAdmin'];
+    echo '<div class="container">';
+    echo '<div align="right">';
+    echo "<h2>Привет, $username</h2>";
+    $query = "SELECT isBanned FROM users WHERE username='$username'";
+    $result = mysqli_query($connection, $query) or die(mysqli_error($connection));
+    $row = mysqli_fetch_assoc($result);
+    $isBanned = $row['isBanned'];
+    $query = "SELECT isMessage FROM users WHERE username='$username'";
+    $result = mysqli_query($connection, $query) or die(mysqli_error($connection));
+    $row = mysqli_fetch_assoc($result);
+    $isMessage = $row['isMessage'];
+    if ($isBanned == 0){
+        if ($isAdmin == 1){
+        echo '<a href="apanel.php" class="btn_primary">Админ-панель</a>';
+        }
+        echo '<a href="authout.php" class="btn_primary">Выход</a>';
+        echo '</div>';
+        if ($isMessage == 1) {
+            echo '<h3>Вам сообщение от администрации сайта!</h3>';
+            $query = "SELECT messageTheme FROM users WHERE username='$username'";
+            $result = mysqli_query($connection, $query) or die(mysqli_error($connection));
+            $row = mysqli_fetch_assoc($result);
+            $messageTheme = $row['messageTheme'];
+            $query = "SELECT messageText FROM users WHERE username='$username'";
+            $result = mysqli_query($connection, $query) or die(mysqli_error($connection));
+            $row = mysqli_fetch_assoc($result);
+            $messageText = $row['messageText'];
+            echo "<h3>Тема: $messageTheme</h3>";
+            echo "<p>$messageText</p>";
+            echo '<div align="right">';
+            echo '<a href="msgRemove.php" class="btn_primary">Удалить сообщение</a>';
+            echo '</div>';
+        }
+        echo '</div>';
+    }
+    else {
+        echo '<h2><font color="red">Ваш аккаунт заблокирован!</font></h2>';
+        echo '</div>';
+        echo '</div>';
+    }
+}
+else {
+    echo '<div class="container">';
+    echo '<div align="center">';
+    echo '<h2>Сначала войдите в аккаунт или создайте его!</h2>';
+    echo '</div>';
+    echo '</div>';
+}
+?>
+    </body>
+</html>
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+find.php – ответ на состояние заказа;
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" / >
+	<title>Магазин сантехники</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body class=gradient>
+<center>
+<svg height=202px>
+	<!//<polygon points="40,95 140,0 230,95" fill=blue/>
+	<!<path d="M 230 95 A 1 1 0 0 1 40 95" fill="blue	" />
+	<path d="M57.034,166.534c2.398,3.801,3.664,8.181,3.664,12.685c0,13.128-10.681,23.809-23.809,23.809S13.08,192.347,13.08,179.219
+	c0-4.522,1.276-8.919,3.692-12.731l13.664-23.069c1.351-2.28,3.803-3.678,6.453-3.678c2.649,0,5.103,1.398,6.453,3.678
+	L57.034,166.534z M190.514,43.376h-49.038v-1.025c0-4.142-3.357-7.5-7.5-7.5h-11.233v-6.495h30.661c4.143,0,7.5-3.358,7.5-7.5
+	v-4.251C160.903,7.449,153.454,0,144.298,0H76.017c-9.156,0-16.605,7.449-16.605,16.605v4.251c0,4.142,3.358,7.5,7.5,7.5h30.662
+	v6.495H86.339c-4.142,0-7.5,3.358-7.5,7.5v1.025H58.84c-27.156,0-49.249,22.093-49.249,49.25v25.194
+	c-2.69,1.139-4.578,3.804-4.578,6.909c0,4.142,3.358,7.5,7.5,7.5h4.578h35.714h4.103c4.142,0,7.5-3.358,7.5-7.5
+	c0-2.918-1.67-5.441-4.103-6.681v-16.932c0-4.429,3.603-8.032,8.032-8.032h10.502v2.547c0,4.142,3.358,7.5,7.5,7.5h47.636
+	c4.143,0,7.5-3.358,7.5-7.5v-0.329h49.038c4.143,0,7.5-3.358,7.5-7.5V50.876C198.014,46.734,194.656,43.376,190.514,43.376z"/>
+</svg>
+<h1 class=title2>Сантехника</h1>
+</center>
+<div class="buttonmenu" >
+	<center>
+<button><a href="http://localhost/truba.html">Труба</a></button>
+<button><a href="http://localhost/unitaz.html">Унитазы</a></button>
+<button><a href="http://localhost/vanna.html">Ванны</a></button>
+<button><a href="http://localhost/registra.html">Заказ</a></button>
+
+<button><a href="http://localhost/T4.html">Регистрация</a></button>
+<button><a href="http://localhost/authform.html">Авторизация</a></button>
+<button><a href="http://localhost/cabinet.php">Кабинет</a></button>
+</center>
+</div>
+<?php
+$con = mysqli_connect('localhost', 'ad', '1','zakaz');
+$Name = $_REQUEST['Name'];
+$sql_select = "SELECT * FROM zakaz WHERE Name='$Name'";
+//var_dump($sql_select);
+$result = mysqli_query($con,$sql_select);
+//var_dump($result);
+$row = mysqli_fetch_array($result);
+if($row) { printf($row['TextZakaz']);echo(" ");printf($row['Status']); }
+else { echo ("Такой Name в базе нет"); }
+
+?>
+
+<form method='post' action='status.html'><b/>
+<input id='submitread'  type='submit' value="Вернуться к поиску"><b/><b/>
+</form>
+<br>
+<form method="post" action="menu.html">
+<input id="submitback" type="submit" value="На главную">
+</form>
+</body>
+</html>
+
+T4_2.php – регистрация нового пользователя;
+<pre>
+<?php
+$connection = mysqli_connect('localhost', 'ad', '1','zakaz');
+$select_db = mysqli_select_db($connection, 'users'); 
+if (isset($_POST['username']) && isset($_POST['password']) && isset($_POST['powpassword'])) {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    $powpassword = $_POST['powpassword'];
+    var_dump($username);
+    var_dump($password);
+    var_dump($powpassword);
+    if ($password == $powpassword){
+        $query = "INSERT INTO users (username, pasword, isAdmin, isBanned, isMessage, messageTheme, messageText) VALUES ('$username', '$password', 0, 0, 0, 'none', 'none')";
+        var_dump($query);
+        $rs = mysqli_query($connection, $query); 
+        
+    }
+    else {
+        echo '<script language="javascript">';
+        echo 'alert("Пароли не совпадают!")';
+        echo '</script>';
+        Reload();
+    }
+}
+else {
+    Reload();
+}
+function Reload() {
+    $filename = "T4.html";
+    $data = file_get_contents($filename);
+    echo ($data);
+}
+
+?>
+</pre>
+authout.php – выход из аккаунта;
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" / >
+    <title>Магазин сантехники</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class=gradient>
+<center>
+<svg height=202px>
+    <!//<polygon points="40,95 140,0 230,95" fill=blue/>
+    <!<path d="M 230 95 A 1 1 0 0 1 40 95" fill="blue   " />
+    <path d="M57.034,166.534c2.398,3.801,3.664,8.181,3.664,12.685c0,13.128-10.681,23.809-23.809,23.809S13.08,192.347,13.08,179.219
+    c0-4.522,1.276-8.919,3.692-12.731l13.664-23.069c1.351-2.28,3.803-3.678,6.453-3.678c2.649,0,5.103,1.398,6.453,3.678
+    L57.034,166.534z M190.514,43.376h-49.038v-1.025c0-4.142-3.357-7.5-7.5-7.5h-11.233v-6.495h30.661c4.143,0,7.5-3.358,7.5-7.5
+    v-4.251C160.903,7.449,153.454,0,144.298,0H76.017c-9.156,0-16.605,7.449-16.605,16.605v4.251c0,4.142,3.358,7.5,7.5,7.5h30.662
+    v6.495H86.339c-4.142,0-7.5,3.358-7.5,7.5v1.025H58.84c-27.156,0-49.249,22.093-49.249,49.25v25.194
+    c-2.69,1.139-4.578,3.804-4.578,6.909c0,4.142,3.358,7.5,7.5,7.5h4.578h35.714h4.103c4.142,0,7.5-3.358,7.5-7.5
+    c0-2.918-1.67-5.441-4.103-6.681v-16.932c0-4.429,3.603-8.032,8.032-8.032h10.502v2.547c0,4.142,3.358,7.5,7.5,7.5h47.636
+    c4.143,0,7.5-3.358,7.5-7.5v-0.329h49.038c4.143,0,7.5-3.358,7.5-7.5V50.876C198.014,46.734,194.656,43.376,190.514,43.376z"/>
+</svg>
+<h1 class=title2>Сантехника</h1>
+
+</center>
+<div class="buttonmenu" >
+    <center>
+<button><a href="http://localhost/truba.html">Труба</a></button>
+<button><a href="http://localhost/unitaz.html">Унитазы</a></button>
+<button><a href="http://localhost/vanna.html">Ванны</a></button>
+<button><a href="http://localhost/registra.html">Заказ</a></button>
+<button><a href="http://localhost/status.html">Статус</a></button>
+<button><a href="http://localhost/T4.html">Регистрация</a></button>
+
+<button><a href="http://localhost/cabinet.php">Кабинет</a></button>
+</center>
+</div>
+        
+        <div>
+            <center>
+            <form action="cabinet.php" method="post">
+                <h2 class="auth_logo">Авторизация</h2>
+                <label class="form-label">Логин</label>
+                <input name="username" type="login" class="form-control">
+                <br>
+                <label class="form-label">Пароль</label>
+                <input name="pasword" type="pasword" class="form-control">
+                <div class="auth_buttons">
+                    <button class="btn_primary" type="submit">Авторизация</button>
+                    <button class="btn_secondary"><a class="auth_btn" href="regform.html">Регистрация</a></button>
+                </div>
+            </form>
+            </center>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </body>
+</html>
+
+banuser.php – блокировка пользователя;
+<?php
+$connection = mysqli_connect('localhost', 'ad', '1','zakaz');
+$select_db = mysqli_select_db($connection, 'users');
+if (isset($_POST['banuser'])) {
+    $banuser = $_POST['banuser'];
+    $query = "UPDATE users SET isBanned=1 WHERE username='$banuser'";
+    $result = mysqli_query($connection, $query) or die(mysqli_error($connection));
+    header('Location: apanel.php');
+}
+?>
+sendMessage.php – отправка пользователю сообщения;
+<?php
+$connection = mysqli_connect('localhost', 'ad', '1','zakaz');
+$select_db = mysqli_select_db($connection, 'users');
+if (isset($_POST['sendName']) && isset($_POST['sendTheme']) && isset($_POST['sendText'])) {
+    $sendName = $_POST['sendName'];
+    $sendTheme = $_POST['sendTheme'];
+    $sendText = $_POST['sendText'];
+    $query = "UPDATE users SET isMessage=1, messageTheme='$sendTheme', messageText='$sendText' WHERE username='$sendName'";
+    $result = mysqli_query($connection, $query) or die(mysqli_error($connection));
+    header('Location: apanel.php');
+}
+?>
+removeMessage.php – удаление сообщения;
+<?php
+session_start();
+require('connection.php');
+if (isset($_SESSION['username'])) {
+    $username = $_SESSION['username'];
+    $query = "UPDATE users SET isMessage=0 WHERE username='$username'";
+    $result = mysqli_query($connection, $query) or die(mysqli_error($connection));
+    header('Location: cabinet.php');
+}
+?>
+phpNewZakazCode.php
+<?php
+// database connection code
+// $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
+$con = mysqli_connect('localhost', 'ad', '1','zakaz');
+// get the post records
+$txtName = $_POST['txtName'];
+$txtPhone = $_POST['Phone'];
+$txtZakaz = $_POST['TextZakaz'];
+
+$sql2 = "INSERT INTO `zakaz`(`Name`,`Phone`,`TextZakaz`,`Status`) VALUES ('$txtName', '$txtPhone','$txtZakaz','0')";
+var_dump($sql2);
+$rs = mysqli_query($con, $sql2);
+
+if($rs)
+{
+	echo "Contact Records Inserted";
+}
+var_dump($txtZakaz);
+
+?>
+style.css – таблица стилей;
+   .gradient {
+     background:  #B3D6F3;
+   }
+   .title2
+   {
+   	color: brown;
+   	font-size: : 30px;
+   }
+   .buttonmenu
+   {
+    background:  blue;
+    
+   }
+     .conteiner
+  {
+    background: white;
+  }
+  .con-text
+  {
+
+  }
+  .OpiText
+  {
+    font-size: 32px;
+  }
+
+   h2
+   {
+    color:#000000;
+   }
+   a {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+   }
+  button {
+    background: #b5bdc8;
+    background: linear-gradient(to top, #349FF9 0%, #104B7C 36%, #3CB3F2 100%);
+    font-size: 16px; /* Размер шрифта */
+    padding: 10px 20px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    border: 1px solid #333; /* Параметры рамки */
+    border-radius: 20px; /* Радиус скругления */
+   }
+   button:active {
+    color: hsla(3, 89%, 51%, 1);
+    box-shadow: -2px 4px 8px hsla(3, 89%, 51%, 1);
+    background-color: hsla(3, 89%, 51%, 1);
+
+styleTable.css – таблица стилей.
+   TABLE {
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    width: 1000px; /* Ширина таблицы */
+   }
+   TH, TD {
+    border: 1px solid black; /* Параметры рамки */
+    text-align: center; /* Выравнивание по центру */
+    padding: 4px; /* Поля вокруг текста */
+   }
+   TH {
+    background: #fc0; /* Цвет фона ячейки */
+    height: 40px; /* Высота ячеек */
+    vertical-align: bottom; /* Выравнивание по нижнему краю */
+    padding: 0; /* Убираем поля вокруг текста */

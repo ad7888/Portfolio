@@ -1,0 +1,48 @@
+   .gradient {
+     background:  #B3D6F3;
+   }
+   .title2
+   {
+   	color: brown;
+   	font-size: : 30px;
+   }
+   .buttonmenu
+   {
+    background:  blue;
+    
+   }
+     .conteiner
+  {
+    background: white;
+  }
+  .con-text
+  {
+
+  }
+  .OpiText
+  {
+    font-size: 32px;
+  }
+
+   h2
+   {
+    color:#000000;
+   }
+   a {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+   }
+  button {
+    background: #b5bdc8;
+    background: linear-gradient(to top, #349FF9 0%, #104B7C 36%, #3CB3F2 100%);
+    font-size: 16px; /* Размер шрифта */
+    padding: 10px 20px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    border: 1px solid #333; /* Параметры рамки */
+    border-radius: 20px; /* Радиус скругления */
+   }
+   button:active {
+    color: hsla(3, 89%, 51%, 1);
+    box-shadow: -2px 4px 8px hsla(3, 89%, 51%, 1);
+    background-color: hsla(3, 89%, 51%, 1);
